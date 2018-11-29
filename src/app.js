@@ -10,6 +10,10 @@ const config = require('./config');
 const app = express();
 const router = express.Router();
 
+//Carregando rotas
+const indexroute = require('./routes/index-route');
+const userroute = require('./routes/user-route');
+
 //Limitando tamanho da requisição
 app.use(bodyParser.json({
     limit: '5mb'
@@ -28,7 +32,8 @@ app.use((req, res, next) => {
 });
 
 //Atribuindo rotas
-//app.use('/', indexroute);
+app.use('/', indexroute);
+app.use('/users', userroute);
 
 //Exportando APP
 module.exports = app;
