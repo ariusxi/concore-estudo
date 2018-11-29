@@ -1,0 +1,36 @@
+{
+  "name": "concore-estudo",
+  "version": "0.0.1",
+  "description": "Estudo com o SDK Concore.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariusxi/concore-estudo.git"
+  },
+  "keywords": [
+    "SDK",
+    "Concore.io"
+  ],
+  "author": "Alef Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariusxi/concore-estudo/issues"
+  },
+  "homepage": "https://github.com/ariusxi/concore-estudo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "guid": "0.0.12",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
